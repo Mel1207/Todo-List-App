@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(img/bgApp.jpg);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.container {
+    margin-top: 20px;
+    position: relative;
+}
