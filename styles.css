@@ -12,3 +12,14 @@ body {
     margin-top: 20px;
     position: relative;
 }
+.localDate {
+    display: flex;
+}
+
+.date-list {
+    display: flex;
+}
+.date-list li {
+    list-style: none;
+    margin-right: 5px;
+}

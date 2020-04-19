@@ -1,7 +1,18 @@
 //Get date today
-let dateToday = document.querySelector('#date');
+let calendar;
+let date = document.querySelector('#date');
+let todayDate = new Date();
+const ul = document.createElement('ul');
+const li = document.createElement('li');
 
-dateToday.textContent = Date();
+ul.className = 'date-list';
+ul.innerHTML = `
+    <li>Today is </li>
+    <li>${todayDate.getMonth()},</li>
+    <li>${todayDate.getDate()},</li>
+    <li>${todayDate.getFullYear()}</li>
+`
+date.appendChild(ul);
 
 // Defining all UI variables
 const form = document.querySelector('#task-form');
